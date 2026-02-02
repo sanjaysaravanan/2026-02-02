@@ -1,3 +1,13 @@
 Topics:
+  1. Publish files on github from VSCode
+  2. General Understanding of evolution of High-level languages like Java, Javascript, Python
+     Languages are created to use the packages which does things in efficient way, 
+      eg: react in npm, pandas in python, spring in java
+  3. HTML: inline vs block vs inline-block
+  4. CSS: ways of using CSS
+    Inline > Internal/External( Order of Execution, last overriden will take the priority )
+    Overriding the Priority: !important
 
-  Publish files on github from VSCode
+Next Session:
+  1. How internet works
+  2. how networking in browser

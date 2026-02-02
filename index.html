@@ -4,6 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+
+    <!-- External Styling -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Internal Styling -->
+    <style>
+      span {
+        border: 2px solid red;
+        padding: 10px;
+        margin: 10px;
+        width: 100px;
+      }
+      div {
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px;
+      }
+
+      .checkout-style {
+        background-color: green !important;
+      }
+    </style>
   </head>
-  <body></body>
+  <body>
+    <div>I am div, I am a block level element</div>
+    <span>I am span, I am a inline level element</span>
+    <img src="https://via.placeholder.com/100" alt="Placeholder Image" />
+
+    <!-- Inline Styling -->
+    <div style="border: 2px solid blue; padding: 10px; margin: 10px">
+      I am a div with inline styling
+    </div>
+
+    <div class="custom-style"></div>
+
+    <div
+      class="checkout-style"
+      style="background-color: red; height: 100px; width: 100px"
+    ></div>
+  </body>
 </html>
